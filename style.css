@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Home section */
+
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)) ,url(photos/home-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.nav-menu li {
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-shadow: 2px 0px 16px rgba(0, 0, 0, 0.5);
+
+}
+
+.left{
+    max-width: 800px;
+}
+
+.heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 90px;
+    font-weight: 910;
+    line-height: 1em;
+    letter-spacing: 4px;
+}
+
+
+.subheading {
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #DBE8E1;
+    
+}
+
+.right {
+    max-width: 400px;
+    padding-right: 60px;
+    margin-left: auto;
+}
+
+.right p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.4em;
+    color:white;
+    font-size: 20px;
+}
+
+.event-details {
+    padding: 40px;
+    font-weight: bold;
+}
+
+button {
+    padding: 20px;
+    border-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white;
+    background-color: #E10032;
+    box-shadow: 4px 0px 30px rgba(255, 255, 255, 0.3);
+}
+
+/* Program section */
+
